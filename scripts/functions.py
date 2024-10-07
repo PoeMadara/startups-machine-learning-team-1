@@ -1,9 +1,14 @@
 import pandas as pd
 import re
 
+# ---------------CARGA DE DATOS-------------------
+
 def load_data(file_path):
     """Carga un archivo CSV en un DataFrame y lo devuelve."""
     return pd.read_csv(file_path, index_col=0)
+
+
+# -------------FUNCIONES DE LIMPIEZA---------------
 
 def clean_text(text):
     """Limpia el texto mediante la conversión a minúsculas, eliminación de caracteres especiales y recorte de espacios."""
@@ -35,6 +40,8 @@ def clean_dataframe(df):
 
     return df
 
+# --------------FUNCIONES DE ANALISIS---------------
+
 def count_investors(row):
     """Cuenta el número de inversores que no son 'No Investor'."""
     return sum(row[['Investor 1', 'Investor 2', 'Investor 3']].apply(lambda x: x != 'No Investor' and pd.notnull(x)))
@@ -44,15 +51,11 @@ def add_investor_count(df):
     df['Number of Investors'] = df.apply(count_investors, axis=1)
     return df
 
-def save_cleaned_data(df, file_path):
-    """Guarda el DataFrame limpio en un archivo CSV."""
-    df.to_csv(file_path, index=False)
-
 def basic_stats(df):
     """Muestra estadísticas básicas sobre el DataFrame."""
     print("Información general sobre el DataFrame:")
     df.info()
-    print("\nPrimeras 50 filas del DataFrame limpio:")
+    print("\nMostrar tabla al completo:")
     print(df)
 
 def valuation_stats(df):
@@ -88,3 +91,10 @@ def investor_stats(df):
     print(investor2_stats)
     print("\nFrecuencia de Investor 3:")
     print(investor3_stats)
+
+# --------------FUNCIONES DE GUARDADO---------------
+
+def save_cleaned_data(df, file_path):
+    """Guarda el DataFrame limpio en un archivo CSV."""
+    df.to_csv(file_path, index=False)
+    print('Archivo guardado')
