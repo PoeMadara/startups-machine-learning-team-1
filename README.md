@@ -1,6 +1,6 @@
 # Startups Machine Learning - Team 1
 
-**Autores:** Danny & Carlos
+**Autores:** Carlos y Danny
 
 ## Descripción del Proyecto
 
