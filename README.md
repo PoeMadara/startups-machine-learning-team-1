@@ -9,7 +9,6 @@
 
 
 
-
 ## Descripción del Proyecto
 
 Este proyecto tiene como objetivo predecir el éxito de **startups** utilizando técnicas de **Machine Learning**. Basándonos en diversas características de las startups (como su industria, equipo, financiamiento, ubicación, entre otros), entrenaremos un modelo que nos permitirá anticipar si una startup tendrá éxito o no.
