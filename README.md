@@ -1,12 +1,11 @@
 # Startups Machine Learning 
 <p align="center">
-<img src="https://th.bing.com/th/id/OIG2.kux2KTZOkoYAMgEgMUjm?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="machine learning img" width="25%">
+<img src="https://th.bing.com/th/id/OIG2.kux2KTZOkoYAMgEgMUjm?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="machine learning img" width="35%">
 <br>
 <strong>Autores:</strong> 
   <a href="https://www.linkedin.com/in/dannyrodasgalarza">Danny</a> & 
   <a href="https://www.linkedin.com/in/carlosvergaragamez/">Carlos</a>
 </p>
-
 
 
 
@@ -45,7 +44,7 @@ El dataset será obtenido de fuentes abiertas como Kaggle o similares. [Kaggle](
 - **Trello**: Para organización y distribución de tareas. [Trello](https://trello.com/b/xF2hzlU2/machinelearning)
 - **Gamma**: Presentación del proyecto. [Gamma](https://gamma.app/docs/Startups-nyndoddcaebkr8n)
 
-## Pasos del Proyecto
+## Contenido del Proyecto
 
 1. **Análisis Exploratorio de Datos (EDA)**: Entender las características principales del dataset y su estructura.
 2. **Preprocesamiento de Datos**: Limpieza de datos, tratamiento de valores nulos y normalización.
@@ -59,12 +58,6 @@ El dataset será obtenido de fuentes abiertas como Kaggle o similares. [Kaggle](
 6. **Optimización**: Ajustar hiperparámetros para mejorar la precisión del modelo.
 7. **Conclusiones**: Análisis final sobre los factores que más influyen en el éxito de las startups.
 
-## Próximos Pasos
-
-- Recopilación y preprocesamiento de los datos.
-- Definir métricas clave de éxito para evaluar el modelo.
-- Implementar visualizaciones de datos que muestren las tendencias más importantes.
-
 
 ## Cómo ejecutar el proyecto
 
@@ -73,7 +66,7 @@ El dataset será obtenido de fuentes abiertas como Kaggle o similares. [Kaggle](
    git clone https://github.com/PoeMadara/startups-machine-learning-team-1.git
 2. Instale las bibliotecas de Python necesarias:
     ```bash
-   pip install -r requirements.txt
+   conda install -r ml-project.yml
 3. Abra y ejecute los cuadernos de Jupyter para el análisis y visualización de datos.
 
 
