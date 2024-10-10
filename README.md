@@ -1,6 +1,13 @@
-# Startups Machine Learning - Team 1
+# Startups Machine Learning 
+<p align="center">
+<img src="https://th.bing.com/th/id/OIG2.kux2KTZOkoYAMgEgMUjm?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="machine learning img" width="25%">
+<br>
+<strong>Autores:</strong> 
+  <a href="https://www.linkedin.com/in/dannyrodasgalarza">Danny</a> & 
+  <a href="https://www.linkedin.com/in/carlosvergaragamez/">Carlos</a>
+</p>
 
-**Autores:** Carlos y Danny
+
 
 ## Descripción del Proyecto
 
@@ -15,7 +22,7 @@ Este análisis puede ayudar a inversionistas, emprendedores y aceleradoras a tom
 - **Aplicar** técnicas de limpieza de datos, ingeniería de características y validación de modelos.
 - **Evaluar** el rendimiento del modelo y optimizar su precisión.
 
-## Dataset
+## Dataset 
 
 El dataset utilizado contiene información relevante sobre startups, como:
 
@@ -25,7 +32,7 @@ El dataset utilizado contiene información relevante sobre startups, como:
 - **Ubicación**: Región geográfica de la startup.
 - **Tiempo en el mercado**: Años desde que la startup fue fundada.
 
-El dataset será obtenido de fuentes abiertas como Kaggle o similares.
+El dataset será obtenido de fuentes abiertas como Kaggle o similares. [Kaggle](https://www.kaggle.com/datasets/niekvanderzwaag/unicorn-startups-cleaned)
 
 ## Tecnologías Utilizadas
 
@@ -34,6 +41,8 @@ El dataset será obtenido de fuentes abiertas como Kaggle o similares.
 - **Scikit-learn**: Para el entrenamiento y validación del modelo.
 - **Matplotlib / Seaborn**: Para la visualización de datos y resultados.
 - **Jupyter Notebooks**: Para documentación y desarrollo interactivo.
+- **Trello**: Para organización y distribución de tareas. [Trello](https://trello.com/b/xF2hzlU2/machinelearning)
+- **Gamma**: Presentación del proyecto. [Gamma](https://gamma.app/docs/Startups-nyndoddcaebkr8n)
 
 ## Pasos del Proyecto
 
@@ -55,8 +64,16 @@ El dataset será obtenido de fuentes abiertas como Kaggle o similares.
 - Definir métricas clave de éxito para evaluar el modelo.
 - Implementar visualizaciones de datos que muestren las tendencias más importantes.
 
-## Colaboración
 
-¡Este es un proyecto colaborativo! Si te gustaría contribuir con nuevas ideas o mejoras, no dudes en hacer un fork del repositorio y enviar un pull request.
+## Cómo ejecutar el proyecto
+
+1. Clona el repositorio:
+    ```bash
+   git clone https://github.com/PoeMadara/startups-machine-learning-team-1.git
+2. Instale las bibliotecas de Python necesarias:
+    ```bash
+   pip install -r requirements.txt
+3. Abra y ejecute los cuadernos de Jupyter para el análisis y visualización de datos.
+
 
 ---
