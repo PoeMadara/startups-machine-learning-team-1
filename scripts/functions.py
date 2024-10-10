@@ -1,19 +1,19 @@
-import os
-import sys
-import re
-import warnings
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classification_report
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.preprocessing import StandardScaler
-from imblearn.over_sampling import SMOTE
-from sklearn.exceptions import UndefinedMetricWarning
+import os  # Importa el módulo os para interactuar con el sistema operativo
+import sys  # Importa el módulo sys para acceder a algunas variables y funciones del intérprete
+import re  # Importa el módulo re para trabajar con expresiones regulares
+import pandas as pd  # Importa pandas como pd para la manipulación y análisis de datos
+import matplotlib.pyplot as plt  # Importa pyplot de matplotlib para la creación de gráficos
+import seaborn as sns  # Importa seaborn como sns para visualizaciones estadísticas mejoradas
+from sklearn.model_selection import train_test_split, GridSearchCV  # Importa funciones para dividir datos y realizar búsqueda de hiperparámetros
+from sklearn.linear_model import LogisticRegression  # Importa la clase para crear un modelo de regresión logística
+from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classification_report  # Importa métricas para evaluar modelos
+from sklearn.tree import DecisionTreeClassifier  # Importa la clase para crear un modelo de árbol de decisión
+from sklearn.svm import SVC  # Importa la clase para crear un clasificador de máquinas de soporte (SVM)
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier  # Importa clases para crear modelos de Random Forest y Gradient Boosting
+from sklearn.preprocessing import StandardScaler  # Importa StandardScaler para escalar características
+from imblearn.over_sampling import SMOTE  # Importa SMOTE para balancear clases en conjuntos de datos desiguales
+from sklearn.exceptions import UndefinedMetricWarning  # Importa la advertencia para métricas indefinidas en sklearn
+
 
 
 # ---------------CARGA DE DATOS-------------------
