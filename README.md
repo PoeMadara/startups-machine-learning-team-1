@@ -1,12 +1,8 @@
 # Startups Machine Learning 
-<p align="center">
-<img src="https://th.bing.com/th/id/OIG2.kux2KTZOkoYAMgEgMUjm?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="machine learning img" width="35%">
-<br>
+
 <strong>Autores:</strong> 
   <a href="https://www.linkedin.com/in/dannyrodasgalarza">Danny</a> & 
   <a href="https://www.linkedin.com/in/carlosvergaragamez/">Carlos</a>
-</p>
-
 
 
 ## Descripción del Proyecto
